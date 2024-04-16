@@ -1,0 +1,22 @@
+number=int(input("enter the number of fibonaccie sequenc"))
+n1=0
+n2=1
+if number<0:
+    print("invalide")
+elif number==1:
+    print(n1)
+else:
+    print(n1)
+    print(n2)
+for i  in range(2,number):
+      sum=n1+n2
+
+      print(sum)
+      n1=n2
+      n2=sum
+
+
+
+
+
+

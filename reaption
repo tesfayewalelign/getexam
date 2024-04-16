@@ -1,0 +1,17 @@
+nterm=int(input("enter the number of fibonaccie sequence:"))
+n1,n2=0,1
+count=2
+if nterm<0:
+    print("invalide")
+elif nterm==1:
+    print(n1)
+
+else:
+    print(n1)
+    print(n2)
+while count<nterm:
+    n3=n1+n2
+    print(n3)
+    count+=1
+    n1=n2
+    n2=n3
