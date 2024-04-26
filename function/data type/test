@@ -1,0 +1,6 @@
+x=("tes","wale","eyorika")
+print(x[1])
+
+
+
+

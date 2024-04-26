@@ -1,2 +1,5 @@
-test=[1,2,3,4,5,6,8,9,10]
-print(list(reduce(lambda x:x**3,test)))
+friends=("jon","yaba","dagi","bini")
+y=list(friends)
+y.append("abduruhaman")
+friends=tuple(y)
+print(friends)
