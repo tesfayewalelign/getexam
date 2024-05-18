@@ -1,5 +1,8 @@
-x=("tes","wale","eyorika")
-print(x[1])
+x=["test","ytr","ytru","yrte","yrue"]
+y=[len(x) for  string in x]
+print(y)
+
+
 
 
 

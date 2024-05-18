@@ -1,0 +1,17 @@
+def merge(x,y):
+   z={**x,**y}
+   return z
+
+x={
+    "test":10,
+    "assignment":25,
+    "teacher":"abebe"
+
+}
+y={
+    "universty":"addis abeba",
+    "month":"may",
+    "year":2016
+}
+z=merge(x,y)
+print(z)

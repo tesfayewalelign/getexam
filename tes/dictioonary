@@ -1,0 +1,11 @@
+contact_info={
+    'name','tesfaye'
+    'email','tesfayewalelign2@gmail.com'
+    'phone','251968119992'
+}
+key=input("enter the key you want to retrieve(e.g,'name','email','phone'):")
+if key in contact_info:
+     print(f"the value for '{key}'is:{contact_info[key]}")
+else:
+      print(f"key '{key}' not found in contact_info.")
+      

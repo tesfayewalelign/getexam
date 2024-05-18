@@ -1,0 +1,5 @@
+fruits=("apple","banna","orange")
+fruits1,fruits2,fruits3=fruits
+print("tuple 1:",fruits1)
+print("tuple 2:",fruits2)
+print("tuple 3:",fruits3)

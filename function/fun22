@@ -1,5 +1,8 @@
-friends=("jon","yaba","dagi","bini")
-y=list(friends)
-y.append("abduruhaman")
-friends=tuple(y)
-print(friends)
+input_number=[1,2,3,5,6,7,8,9,10]
+even_number=[]
+for E in input_number:
+    if E%2==0:
+        even_number.append(E)
+    
+        print("even numbers list:",even_number)
+        
